@@ -29,6 +29,8 @@ services:
       DB_PASSWORD: GwU0YsdRpzkmKLO[
       DB_NAME: dbcompro
       DB_HOST: db-webdinamis
+      NEXTAUTH_SECRET: Aliyyah-Azzahra-Taqi-Kusuma-046
+      NEXTAUTH_URL: http://54.252.28.152:3000
     depends_on:
       - db-webdinamis
 
